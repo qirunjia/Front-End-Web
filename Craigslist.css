@@ -60,13 +60,13 @@ nav{
     left: 400px;
 
 }
-img{
+
+nav img{
   float:right;
   width:90px;
   position: fixed;
   top:17px;
   right:180px;
-
 }
 .post{
   float:right;
@@ -327,11 +327,38 @@ footer {
   height: 150px;
   width: 100%;
   background: #562E87;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .footerNav {
+  color: white;
+  font-size:15px;
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
+
+.vl {
+  border: 2px solid white;
+  height: 100px;
+  margin: 10px;
+} 
+
+#brand_bottom_container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer h1{
+  color: white;
+  font-weight: bold;
+}
+
+/* 
 
 .footerItem {
   color: white;
@@ -348,24 +375,14 @@ footer {
   bottom:40px;
   right: 350px;
 }
-.logo{
-  float:right;
-  width: 15%;
-  height: 17%;
-  position:fixed;
-  top: 83%;
-  right: 110px;
+*/
 
+
+footer .logo{
+  width: auto;
 }
-.vl {
-  border-left: 2px solid white;
-    height: 100px;
-    position: absolute;
-    left: 350px;
-    margin-left: -3px;
-    bottom: 30px;
-}
-.fleft{
+
+/* .fleft{
   color: white;
   font-size: 15px;
   position:absolute;
@@ -449,9 +466,9 @@ footer {
   position:absolute;
   bottom:42px;
   left: 1020px;
-}
+} */
 
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
   .searchBox{
     width:1%;
     border-radius: 0px;
@@ -485,7 +502,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 768px) and (max-width: 1023px) {
   .searchBox input {
       font-size: 18px;
   }
@@ -499,5 +516,5 @@ footer {
       width: 30px;
       height: 40px;
   }
-}
+} */
 
