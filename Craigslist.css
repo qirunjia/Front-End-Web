@@ -7,6 +7,7 @@ nav{
   align-items: center;
   padding: 2px;
 
+  
 }
 .dot {
   height: 400px;
@@ -47,16 +48,16 @@ nav{
   font-size: 30px;
   position:relative;
   left:100px;
+  
 
 }
 .searchBox{
 
-    height: 500px;
-    width: 100px;
+  display: flex;
+  justify-content: center;
+    height: 30px;
     border-radius: 0px;
-
-    position: fixed;
-    top: 40px;
+    position: absolute;
     left: 400px;
 
 }
@@ -337,19 +338,19 @@ footer {
   font-size:15px;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: column;
 }
 
 .vl {
   border: 2px solid white;
   height: 100px;
-  margin: 10px;
+  margin: 25px;
 } 
 
 #brand_bottom_container{
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-direction: column;
 }
 
@@ -358,14 +359,14 @@ footer h1{
   font-weight: bold;
 }
 
-/* 
+
 
 .footerItem {
   color: white;
   font-size: 20px;
   position: relative;
-  left:130px;
-  top: 10px;
+  left:60px;
+  top: 5px;
   margin-right: 10px;
 }
 .brand_bottom{
@@ -373,9 +374,9 @@ footer h1{
   font-size: 30px;
   position:absolute;
   bottom:40px;
-  right: 350px;
+  right: 170px;
 }
-*/
+
 
 
 footer .logo{
